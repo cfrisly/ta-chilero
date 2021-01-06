@@ -4,9 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="TaChilero tienda en linea articulos y mas,tu lo pides nosotros te lo llevamos y tu decides como pagas, todo los productos como te gustan al chilazo, Entrega en horas o un dia con envio gratis dentro de nuestra cobertura consulta.">
-        <meta name="author" content="Tachilero">
+        <meta name="author" content="Ta-Chilero">
 
-        <title>Ta'Chilero - Tienda en linea - Guatemala</title>
+        <title>Ta-Chilero - Tienda en linea - Guatemala</title>
 
         <!-- Fonts 
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">-->
@@ -98,6 +98,7 @@
             </div>
         </div>
 
+        <!-- Slider -->
         <section>
             <div class="container">
                 <div class="row">
@@ -112,23 +113,23 @@
                                 </ol>
                                 <div class="carousel-item active">
                                     <div class="col-sm-12">
-                                        <img class="img-fluid img-thumbnail" src="images/home/vd1.gif" alt="Third slide">
+                                        <img class="img-fluid img-thumbnail" src="images/home/anio.png" alt="Third slide">
                                         <!--<img src="images/home/pricing.png"  class="pricing" alt="" />-->
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="col-sm-12">
-                                        <img class="img-fluid img-thumbnail" src="images/home/pub.png" alt="Third slide">
+                                        <img class="img-fluid img-thumbnail" src="images/home/anio2.png" alt="Third slide">
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="col-sm-12">
-                                        <img class="img-fluid img-thumbnail" src="images/home/vd1.gif" alt="Third slide">
+                                        <img class="img-fluid img-thumbnail" src="images/home/anio.png" alt="Third slide">
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="col-sm-12">
-                                        <img class="img-fluid img-thumbnail" src="images/home/pub.png" alt="Third slide">
+                                        <img class="img-fluid img-thumbnail" src="images/home/anio2.png" alt="Third slide">
                                     </div>
                                 </div>
                             </div>
@@ -159,9 +160,25 @@
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
                                             <a href="">
-                                                <span><i class="fa fa-plus"></i></span>
+                                                <span class="badge pull-right"><i class="fa fa-plus"></i></span>
                                             </a>
                                         </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Product category-->
+                    <div class="col-sm-9">
+                        <div class="features_items">
+                            <h2 class="title text-center">Features Items</h2>
+                            <div class="col-sm-4">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="images/product.jpg">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -188,7 +205,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    TaChilero
+                    Ta-Chilero
                 </div>
 
                 <div class="links">
@@ -204,7 +221,7 @@
                     <div class="row">
                         <div class="col-sm-2">
                             <div class="companyinfo">
-                                <h2><span>Ta</span>'Chilero</h2>
+                                <h2><span>Ta</span>-Chilero</h2>
                                 <p>A un clic de Tí</p>
                             </div>
                         </div>
@@ -249,7 +266,7 @@
                                     <li><a href="#">Sobre Nosotros</a></li>
                                     <li><a href="#">Términos y condiciones</a></li>
                                     <li><a href="#">Politica de privacidad</a></li>
-                                    <li><a href="#">Ordenes y devoluciiones</a></li>
+                                    <li><a href="#">Ordenes y devoluciones</a></li>
                                     <li><a href="#">Términos de búsqueda</a></li>
                                     <li><a href="#">Envío en 1-3 días hábiles</a></li>
                                 </ul>

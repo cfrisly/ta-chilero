@@ -11,8 +11,7 @@
         <!-- Fonts 
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">-->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link href="css/main.css" rel="stylesheet">
-        
+        <link href="css/main.css" rel="stylesheet">  
     </head>
 
     <body>
@@ -113,23 +112,23 @@
                                 </ol>
                                 <div class="carousel-item active">
                                     <div class="col-sm-12">
-                                        <img class="img-fluid img-thumbnail" src="images/home/anio.png" alt="Third slide">
+                                        <img class="img-fluid img-thumbnail" src="images/home/20210120_124243_0000.png" alt="Third slide">
                                         <!--<img src="images/home/pricing.png"  class="pricing" alt="" />-->
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="col-sm-12">
-                                        <img class="img-fluid img-thumbnail" src="images/home/anio2.png" alt="Third slide">
+                                        <img class="img-fluid img-thumbnail" src="images/home/20210120_124243_0000.png" alt="Third slide">
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="col-sm-12">
-                                        <img class="img-fluid img-thumbnail" src="images/home/anio.png" alt="Third slide">
+                                        <img class="img-fluid img-thumbnail" src="images/home/20210120_124243_0000.png" alt="Third slide">
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="col-sm-12">
-                                        <img class="img-fluid img-thumbnail" src="images/home/anio2.png" alt="Third slide">
+                                        <img class="img-fluid img-thumbnail" src="images/home/20210120_124243_0000.png" alt="Third slide">
                                     </div>
                                 </div>
                             </div>
@@ -149,9 +148,65 @@
             </div>
         </section>
 
-        <section>
+        <section> <!-- Section categories -->
             <div class="container">
-                <div class="row">
+                <div class="section-title-category">
+                    <button type="button" class="btn btn-warning">
+                        <h5 class="section-title">
+                            <span class="title">Categorías Destacadas</span>
+                        </h5>
+                    </button>
+                </div>
+                <div class="line"></div>
+
+                <div class="row category-dest">
+                    <!--Product category-->
+                    <div class="col-sm-3">
+                        <a href="">
+                            <div class="card bg-dark text-white">
+                                <img class="card-img" src="images/home/iphone.jpg" alt="telefonos inteligentes">
+                                <div class="card-img-overlay text-center">
+                                    <h5 class="card-title">Smartphons</h5>
+                                    <p class="card-text">Telefonos inteligentes</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="card bg-dark text-white">
+                            <img class="card-img" src="images/home/tablets.jpg" alt="tabletas inteligentes">
+                            <div class="card-img-overlay text-center">
+                                <h5 class="card-title">Tablets</h5>
+                                <p class="card-text">Tabletas inteligentes</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <a href="shop/c/tecnologia/1">
+                           <div class="card bg-dark text-white">
+                                <img class="card-img" src="images/home/smartwatch.jpg" alt="reloj y bandas inteligentes">
+                                <div class="card-img-overlay text-center">
+                                    <h5 class="card-title">Smartwatchs</h5>
+                                    <p class="card-text">Relojes y bandas inteligentes</p>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <a href="">
+                            <div class="card bg-dark text-white">
+                                <img class="card-img" src="images/home/headphones.jpg" alt="Audifonos inalambricos e inalambricos">
+                                <div class="card-img-overlay text-center">
+                                    <h5 class="card-title">Headphones</h5>
+                                    <p class="card-text">Audifonos alambricos e inalambricos</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                     <div class="col-sm-3">
                         <div class="left-sidebar">
                             <h2>Category</h2>
@@ -177,13 +232,29 @@
                                 <div class="product-image-wrapper">
                                     <div class="single-products">
                                         <div class="productinfo text-center">
-                                            <img src="images/product.jpg">
+                                            <img src="images/product.jpg" alt="">
+                                            <h2>Q 99.99</h2>
+                                            <p>Nuevo producto</p>
+                                            <a href="" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al carrito</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="section-title-category">
+                    <button type="button" class="btn btn-warning">
+                        <h5 class="section-title">
+                            <span class="title">Recien Ingresados</span>
+                        </h5>
+                    </button>
+                </div>
+                <div class="line"></div>
+
+                <div class="row product-dest">
+                    <div class=""></div>
                 </div>
             </div>
         </section>

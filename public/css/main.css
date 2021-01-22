@@ -499,5 +499,65 @@ a#scrollUp i{
 	margin-top: 20px;
 }
 
+/* category home */
+
+.product-img-wrapper{
+	border: 1px solid #FE980F;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.single-products{
+	position: relative;
+}
+
+.productinfo{
+	position: relative;
+}
+
+.productinfo{
+	width: 100%;
+}
+
+.productinfo{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #0A0A0A;
+}
+
+.cuadro{
+	width: 100%
+}
+
+.cuadro img{
+	width:100px;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+
+.section-title-category .btn-warning{
+	color: #212529;
+	background-color: #FFC45E;
+	border-color: #FE980F;
+}
+
+.line{
+	border-top: solid 3px #FE980F;
+	height: 2px
+	max-width: 100%
+	padding: 0;
+	margin: -20px auto 0 auto;
+}
+
+.category-dest{
+	margin-top: 40px;
+}
+
+.category-dest{
+	margin-top: 40px;
+}
+
 
 

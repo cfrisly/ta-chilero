@@ -37,3 +37,7 @@ Route::group(['prefix' => 'checkout', 'as' => 'checkout.'], function() {
     Route::post('submit', 'CheckoutController@submit')->name('submit');
 });
 
+Route::get('/privacy', function () {
+    return view('policies.privacypolicies');
+});
+

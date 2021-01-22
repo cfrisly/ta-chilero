@@ -337,6 +337,7 @@
                                     <li><a href="#">Sobre Nosotros</a></li>
                                     <li><a href="#">Términos y condiciones</a></li>
                                     <li><a href="#">Politica de privacidad</a></li>
+                                    <li><a href="/privacy">Política de privacidad</a></li>
                                     <li><a href="#">Ordenes y devoluciones</a></li>
                                     <li><a href="#">Términos de búsqueda</a></li>
                                     <li><a href="#">Envío en 1-3 días hábiles</a></li>

@@ -99,6 +99,36 @@
 
         <!-- Slider -->
         <section>
+            <div id="carouselExampleIndicators" class="container carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid img-thumbnail" src="images/home/20210120_124243_0000.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid img-thumbnail" src="images/home/20210120_124243_0000.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid img-thumbnail" src="images/home/20210120_124243_0000.png" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+                    <span><i class="fas fa-chevron-left"></i></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+                    <span><i class="fas fa-chevron-right"></i></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!--
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -113,7 +143,6 @@
                                 <div class="carousel-item active">
                                     <div class="col-sm-12">
                                         <img class="img-fluid img-thumbnail" src="images/home/20210120_124243_0000.png" alt="Third slide">
-                                        <!--<img src="images/home/pricing.png"  class="pricing" alt="" />-->
                                     </div>
                                 </div>
                                 <div class="carousel-item">
@@ -133,15 +162,55 @@
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
-                                <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>-->
                                 <i class="fas fa-chevron-left"></i>
                             </a>
                             <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
-                                <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>-->
                                 <i class="fas fa-chevron-right"></i>
                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+        </section>
+
+        <!-- Offers-->
+        <section class="offers">
+            <div class="container">
+                <div class="section-title-category">
+                    <button type="button" class="btn btn-warning">
+                        <h5 class="section-title">
+                            <span class="title">Mira hoy</span>
+                        </h5>
+                    </button>
+                    <div class="line"></div>
+                </div> 
+            </div>
+
+            <div class="container card-group">
+                <div class="card col-sm-8">
+                    <img class="card-img-top" src="images/dose-media.jpg" alt="oferta del día">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>                            
+                        <p class="card-text">Texto en un minuto</p>
+                        <p class="card-text"><small class="text-muted">ultima actualizacion 3 minutos antes</small></p>
+                    </div>
+                </div>
+                <div class="card col-sm-4">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Mini Cámara</h5>
+                        <p class="text-center">Puedes utilizarla en cualquier lugar y en cualuier momento pasando desapercibida</p>
+                        <div class="card-price ">
+                            <div class="row">
+                                <h2 class="card-body">Q 149.99</h2>
+                                <div><button type="button" class="btn btn-success btn-sm">Ver</button></div>
+                            </div>
+                        </div>
+                        <div class="card-discount">
+                            <div class="row">
+                                <div class="one">price</div>
+                                <div class="two">discount</div>
+                                <div class="three">Home</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -159,87 +228,53 @@
                 </div>
                 <div class="line"></div>
 
-                <div class="row category-dest">
+                <div class="category-dest">
+                    <div class="row">
                     <!--Product category-->
-                    <div class="col-sm-3">
-                        <a href="">
-                            <div class="card bg-dark text-white">
-                                <img class="card-img" src="images/home/iphone.jpg" alt="telefonos inteligentes">
-                                <div class="card-img-overlay text-center">
-                                    <h5 class="card-title">Smartphons</h5>
-                                    <p class="card-text">Telefonos inteligentes</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="card bg-dark text-white">
-                            <img class="card-img" src="images/home/tablets.jpg" alt="tabletas inteligentes">
-                            <div class="card-img-overlay text-center">
-                                <h5 class="card-title">Tablets</h5>
-                                <p class="card-text">Tabletas inteligentes</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <a href="shop/c/tecnologia/1">
-                           <div class="card bg-dark text-white">
-                                <img class="card-img" src="images/home/smartwatch.jpg" alt="reloj y bandas inteligentes">
-                                <div class="card-img-overlay text-center">
-                                    <h5 class="card-title">Smartwatchs</h5>
-                                    <p class="card-text">Relojes y bandas inteligentes</p>
-                                </div>
-                            </div> 
-                        </a>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <a href="">
-                            <div class="card bg-dark text-white">
-                                <img class="card-img" src="images/home/headphones.jpg" alt="Audifonos inalambricos e inalambricos">
-                                <div class="card-img-overlay text-center">
-                                    <h5 class="card-title">Headphones</h5>
-                                    <p class="card-text">Audifonos alambricos e inalambricos</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="left-sidebar">
-                            <h2>Category</h2>
-                            <div class="panel-group category-product" id="accordian"><!--category-productsr-->
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a href="">
-                                                <span class="badge pull-right"><i class="fa fa-plus"></i></span>
-                                            </a>
-                                        </h4>
+                        <div class="col-6 col-md-3 col-xl-3">
+                            <a href="">
+                                <div class="card bg-dark text-white">
+                                    <img class="card-img" src="images/home/iphone.jpg" alt="telefonos inteligentes">
+                                    <div class="card-img-overlay text-center">
+                                        <h5 class="card-title">Smartphons</h5>
+                                        <p class="card-text">Telefonos inteligentes</p>
                                     </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-6 col-md-3 col-xl-3">
+                            <div class="card bg-dark text-white">
+                                <img class="card-img" src="images/home/tablets.jpg" alt="tabletas inteligentes">
+                                <div class="card-img-overlay text-center">
+                                    <h5 class="card-title">Tablets</h5>
+                                    <p class="card-text">Tabletas inteligentes</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!--Product category-->
-                    <div class="col-sm-9">
-                        <div class="features_items">
-                            <h2 class="title text-center">Features Items</h2>
-                            <div class="col-sm-4">
-                                <div class="product-image-wrapper">
-                                    <div class="single-products">
-                                        <div class="productinfo text-center">
-                                            <img src="images/product.jpg" alt="">
-                                            <h2>Q 99.99</h2>
-                                            <p>Nuevo producto</p>
-                                            <a href="" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al carrito</a>
-                                        </div>
+                        <div class="col-6 col-md-3 col-xl-3">
+                            <a href="shop/c/tecnologia/1">
+                               <div class="card bg-dark text-white">
+                                    <img class="card-img" src="images/home/smartwatch.jpg" alt="reloj y bandas inteligentes">
+                                    <div class="card-img-overlay text-center">
+                                        <h5 class="card-title">Smartwatchs</h5>
+                                        <p class="card-text">Relojes y bandas inteligentes</p>
+                                    </div>
+                                </div> 
+                            </a>
+                        </div>
+
+                        <div class="col-6 col-md-3 col-xl-3">
+                            <a href="">
+                                <div class="card bg-dark text-white">
+                                    <img class="card-img" src="images/home/headphones.jpg" alt="Audifonos inalambricos e inalambricos">
+                                    <div class="card-img-overlay text-center">
+                                        <h5 class="card-title">Headphones</h5>
+                                        <p class="card-text">Audifonos alambricos e inalambricos</p>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>

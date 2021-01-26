@@ -537,6 +537,10 @@ a#scrollUp i{
 	display: block;
 }
 
+.section-title-category{
+	margin-top: 10px;
+}
+
 .section-title-category .btn-warning{
 	color: #212529;
 	background-color: #FFC45E;
@@ -552,12 +556,60 @@ a#scrollUp i{
 }
 
 .category-dest{
-	margin-top: 40px;
+	background: #E8E3E3;
+	margin-top: 25px;
+	padding: 15px;
+	border-radius: 10px;/*
+	box-shadow: #100E1B*/
 }
 
-.category-dest{
+/*.category-dest{
 	margin-top: 40px;
+}*/
+
+.slide{
+	padding: 0px;
+	background-color: black;
 }
 
+.carousel-inner{
+	padding: 0px;
+}
 
+.carousel-item{
+	padding: 0px;
+}
 
+.img-fluid{
+	width: 100%;
+}
+
+.card{
+	background: #E8E3E3;
+	margin-top: 25px;
+	padding: 0px;
+}
+
+.card-img-top{
+	padding: 0px;
+	width: 100%;
+}
+
+.imgoffert{
+	float: right;
+}
+
+.card-price{
+}
+
+.one{
+	background: black;
+}
+
+.two{
+	background: red;
+}
+
+.three{
+	background: orange;
+}
